@@ -1,3 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using SmartHome.Models;
 
-Console.WriteLine("Hello, World!");
+var light = new Light(1, "Lamp", "Light", connected:true);
+
+Console.WriteLine(light.Name);
